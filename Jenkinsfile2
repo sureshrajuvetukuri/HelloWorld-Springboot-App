@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git clone'){
             steps{
-                git 'https://sureshrajuvetukuri/HelloWorld-Springboot-App.git'
+                git 'https://github.com/sureshrajuvetukuri/HelloWorld-Springboot-App.git'
             }
         }
         
